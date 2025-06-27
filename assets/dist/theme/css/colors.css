@@ -1,0 +1,21 @@
+:root {
+  --primary-color: rgb(14, 255, 133);
+  --logo-color: none;
+  --body-color: rgb(255, 255, 255);
+  --secondary-color: rgb(38, 38, 38);
+  --secondary-color2: rgb(242, 241, 237);
+  --headingDark: rgb(25, 25, 23);
+  --text-color: rgb(49, 48, 48);
+  --headingLight: rgb(255, 255, 255);
+  --transition: cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+:root.dark {
+  --body-color: rgb(25, 25, 23);
+  --body-color: rgb(25, 25, 23);
+  --secondary-color2: rgb(38, 38, 38);
+  --secondary-color: rgb(242, 241, 237);
+  --headingDark: rgb(255, 255, 255);
+  --text-color: rgb(233, 233, 233);
+  --headingLight: rgb(25, 25, 23);
+  --transition: cubic-bezier(0.25, 0.8, 0.25, 1);
+}

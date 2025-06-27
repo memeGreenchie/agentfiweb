@@ -1,0 +1,334 @@
+@media (min-width: 1600px) {
+  .birzaHero .container {
+    max-width: 1440px;
+  }
+  .container {
+    max-width: 1250px;
+  }
+}
+
+@media (max-width: 1440px) {
+  .bgCircle {
+    width: 650px;
+    height: 650px;
+  }
+  .heroTag {
+    padding: 0 15px;
+    height: 30px;
+    font-size: 12px;
+  }
+  .tagSection {
+    width: 98%;
+  }
+}
+@media (max-width: 1200px) {
+  .effect1,
+  .effect2 {
+    display: none;
+  }
+  .desktopNav {
+    display: none !important;
+  }
+  .mobileNav {
+    display: block;
+  }
+  .birzaNav {
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  .birzaH1 {
+    font-size: 60px;
+  }
+  .birzaList {
+    font-size: 20px;
+    gap: 10px;
+  }
+  .birzaMenu {
+    gap: 25px;
+  }
+  .d-flex.flex-wrap.gap-4 {
+    gap: 1rem;
+  }
+  .birzaButton {
+    height: 50px;
+    padding: 0 20px;
+  }
+  .heroImages img:nth-child(3).position-absolute {
+    display: none;
+  }
+  .heroImages img:nth-child(2).position-absolute {
+    display: none;
+  }
+  .box {
+    gap: 15px;
+    height: 100%;
+  }
+  .box img {
+    width: 70px;
+  }
+  .birzaH4 {
+    font-size: 24px;
+  }
+  .birzaDesc {
+    font-size: 15px;
+  }
+  .birzaH2 {
+    font-size: 50px;
+  }
+  .birzaExp .row > img.position-absolute {
+    display: none;
+  }
+  .birzaDesc.w65 {
+    width: 100%;
+  }
+  .birzaDesc.w65.my-5 {
+    margin: 20px 0 !important;
+  }
+  .expCount {
+    flex-wrap: wrap;
+  }
+  .expBlock {
+    width: 100px;
+    height: 100px;
+    font-size: 15px;
+  }
+  .expBlock span,
+  .expAmmount {
+    font-size: 40px;
+  }
+  .tabContentTxt {
+    padding: 20px;
+    height: 100%;
+  }
+  .tabButton button {
+    font-size: 30px;
+    margin-bottom: 15px;
+  }
+  .birzaMargin {
+    margin: 70px 0;
+  }
+  .birzaPadding {
+    padding: 70px 0;
+  }
+  .birzaH3 {
+    font-size: 25px;
+  }
+  .serviceSingle {
+    padding: 20px;
+    height: 100%;
+  }
+  .lap-sm-33 {
+    width: 33.33333333%;
+  }
+}
+
+@media (max-width: 992px) {
+  .cFlexWrap {
+    flex-wrap: wrap !important;
+  }
+  .bgCircle {
+    width: 550px;
+    height: 550px;
+  }
+  .mobNavInner {
+    width: 70%;
+  }
+  .tab-100 {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .tab-33 {
+    width: 33.333333333333%;
+  }
+  .tab-none {
+    display: none;
+  }
+  .tabButton {
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .serviceSingle .d-flex {
+    gap: 20px;
+  }
+  .clientSingle {
+    height: 150px;
+  }
+  .tabButton button {
+    font-size: 24px;
+  }
+  .tab-50 {
+    margin-top: 10px;
+    width: 50%;
+  }
+  .expCount {
+    justify-content: start;
+  }
+  .eventSingle {
+    padding: 15px;
+    height: auto;
+  }
+  .eventSingle img {
+    height: 150px;
+  }
+  .cFlexWrap {
+    flex-wrap: wrap !important;
+  }
+  .birzaH3 {
+    font-size: 18px;
+  }
+  .memberDetails {
+    padding: 20px;
+  }
+  .memberDetails .birzaDesc {
+    margin: 10px !important;
+    line-height: 1;
+  }
+  .accordionMain {
+    padding: 20px;
+  }
+  .birzaH2 {
+    font-size: 40px;
+    line-height: 1;
+  }
+  .birzaAccordion .accordion-item {
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  .plusminus {
+    min-width: 30px;
+    height: 30px;
+  }
+  .plusminus:before,
+  .plusminus:after {
+    width: 7px;
+  }
+  #birzaAccordion .accordion-header button {
+    font-size: 18px;
+    gap: 10px;
+  }
+  .footerSlider {
+    min-height: 400px;
+  }
+  .birzaFooter::before {
+    height: 100%;
+  }
+}
+@media (max-width: 768px) {
+  .birzaHero .birzaDesc {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+  .birzaVideo .birzaH2 {
+    font-size: 40px;
+    width: 100% !important;
+  }
+  .mob-lg-100 {
+    width: 100%;
+  }
+  .mob-lg-50 {
+    width: 50%;
+  }
+  .mob-lg-none {
+    display: none;
+  }
+  .eventSingle p,
+  .eventSingle i {
+    font-size: 14px;
+    height: 50px;
+  }
+  .contactInfo {
+    transform: translateY(0);
+    margin-top: 40px;
+  }
+  .footerLinks {
+    align-items: start !important;
+    margin-top: 20px;
+  }
+  .tagSection {
+    display: none;
+  }
+}
+@media (max-width: 576px) {
+  .mobNavInner {
+    width: 90%;
+  }
+  .bgCircle {
+    width: 400px;
+    height: 400px;
+  }
+  .loaderText {
+    font-size: 50px;
+    letter-spacing: 10px;
+  }
+  .appSingle {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+@media (max-width: 480px) {
+  .birzaHero .birzaDesc {
+    font-size: 16px;
+  }
+  .bgCircle {
+    width: 300px;
+    height: 300px;
+  }
+  .appSingle {
+    width: 50px;
+    height: 50px;
+  }
+  .mobNavInner {
+    width: 100%;
+  }
+  .birzaNav {
+    padding: 20px;
+    min-height: auto;
+  }
+  .birzaH1 {
+    font-size: 25px;
+  }
+  .birzaList {
+    font-size: 12px;
+    margin: 20px 0;
+  }
+  .mob-100 {
+    width: 100%;
+  }
+  .featureslide {
+    height: 100px;
+  }
+  .slide {
+    font-size: 24px;
+  }
+  .birzaH2 {
+    font-size: 25px;
+  }
+  .counterStar::before {
+    display: none;
+  }
+  .mob-30 {
+    width: 30%;
+  }
+
+  .mob-70 {
+    width: 70%;
+  }
+  .blogDetails {
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+  }
+  .loaderText {
+    font-size: 30px;
+    letter-spacing: 10px;
+  }
+  .colorPallete {
+    display: none;
+  }
+  .birzaVideo .birzaH2 {
+    font-size: 25px;
+    width: 100% !important;
+  }
+}
